@@ -1,0 +1,83 @@
+
+ .confirm-cancel .card{
+    margin-top: 12px;
+    background: #fff;
+    width: 300px;
+    height: 122px;
+    border: 1.8px solid lightgray;
+    border-radius: 8px; 
+    margin-right: 80px;
+}
+ .confirm-cancel .second-row .card{
+    margin-top: 16px;
+    height: 113px;
+} 
+
+ .confirm-cancel .card .card-image{
+    background:#E1FFF2;
+    border-radius: 50px;
+    height: 50px;
+    width: 70px;
+    margin-left: 50px;
+}
+
+.confirm-cancel .card .content .far{
+    color: teal;
+    margin-left: 36px;
+    width: 18px;
+}
+
+.confirm-cancel .card .content p{
+    color: #646D82;
+    font-size: 14px;
+}
+
+.confirm-cancel .card .content h6, .confirm-cancel .card .content h6 span{
+    color: #646D82;
+    font-size: 12px;
+    font-weight: lighter;
+    margin-left: 55px;
+    margin-top: 3px;
+}
+
+.confirm-cancel .card .content h6 span{
+    margin-left: 72px;
+}
+
+ .confirm-cancel .card .confirm, .cancel{
+    margin-top: 8px;
+    padding: 3px 40px;
+    font-size: 12px;
+    border: 1.8px solid lightgray;
+}
+
+.confirm-cancel .card .confirm{
+    margin-left: -2px;
+    background: #339996;
+    color: white;
+    border-radius: 0px 0px 0px 8px;
+}
+
+.confirm-cancel .card .cancel{
+    margin-left: -5px;
+    padding-left: 42px;
+    padding-right: 44.3px;
+    background: #FBFBFB;
+    border-radius: 0px 0px 8px 0px;
+    color: black;
+}
+
+ .confirm-cancel .card button .fa-times-circle{
+    color: red;
+}
+
+ .confirm-cancel .card .confirm:hover{
+    background:#2CD889;
+}
+
+ .confirm-cancel .card .cancel:hover {
+    background:#309895;
+    color: white;
+}
+
+

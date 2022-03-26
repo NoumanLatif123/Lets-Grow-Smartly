@@ -1,0 +1,193 @@
+.modal-button {
+    margin-left: 150px;
+    height: 50px;
+    width: 90px;
+    color: white;
+    background-color: #309895;
+}
+
+#main_image {
+    width: 65%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    margin-left: 15px;
+  }
+  .second_div {
+    width: 30%;
+    display: inline-block;
+    margin-left: 68%;
+    display: block;
+    margin-top: -40%;
+    margin-bottom: 20%;
+  }
+
+  .second_div h2, .second_div h6{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: darkgray;
+  }
+
+  .second_div h6{
+    font-size: 1.2rem;
+    font-weight: lighter;
+  }
+  
+  .getstarted {
+    background-color: #309895;
+    border: none;
+    color: white;
+    margin-left: 20%;
+    height: 50px;
+    width: 230px;
+  }
+
+  #pink_text{
+    color: darkgray;
+    text-align: center;
+  }
+  .main_div {
+    display: block;
+    height: 150px;
+    position: absolute;
+    background-color: black;
+    width: 100%;
+  }
+  
+  li {
+    color: white;
+    list-style: none;
+  }
+  .internalDiv1 {
+    display: inline-block;
+    color: white;
+    margin-left: 20px;
+    margin-right: 100px;
+    padding-top: 0;
+    margin-bottom: 45px;
+    overflow: hidden;
+  }
+  .internalDiv2 {
+    display: inline-block;
+    margin-left: 130px;
+    margin-top: 20px;
+    overflow: hidden;
+  }
+  .internalDiv3 {
+    display: inline-block;
+    margin-left: 150px;
+    padding-bottom: 25px;
+    width: 300px;
+    overflow: hidden;
+  }
+  h5 {
+    padding-left: 37px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  #copyright {
+    font-size: 15px;
+  }
+  
+  .ul3 {
+    display: inline;
+  }
+  #t1 {
+    margin-top: 2%;
+    color: rgb(60, 218, 165);
+    color: darkgray;
+    padding-left: 5%;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 2em;
+    font-weight: bolder; 
+  }
+  #app_recipe {
+    margin-top: 3%;
+    margin-left: 5px;
+    height: 50px;
+    width: 150px;
+  }
+  #img_recipe {
+    width: 60%;
+    border: solid;
+  
+    margin-top: 5%;
+  }
+  #recipe_text {
+    text-align: justify;
+    margin-left: 10%;
+    width: 80%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+  .pink {
+    background-color: lightgray;
+    display: block;
+    width: 100%;
+    padding: 36px;
+  }
+  .White1 {
+    background-color: white;
+    width: 30%;
+    height: 20%;
+    display: inline-block;
+    margin-right: 4%;
+  }
+  .White2 {
+    background-color: white;
+    width: 30%;
+    height: 50%;
+    display: inline-block;
+    margin-right: 4%;
+  }
+  .White3 {
+    background-color: white;
+    width: 30%;
+    height: 50%;
+    display: inline-block;
+  }
+  #pic_Home {
+    width: 80%;
+    height: 400px;
+    display: inline-block;
+    padding-bottom: 8%;
+    padding-top: 8%;
+    margin-left: 40px;
+  }
+  #pink_text {
+    font-size: 50px;
+    margin-left: 3%;
+  }
+  #desc {
+    width: 450px;
+  
+    background-color: white;
+    border: solid;
+  }
+  .Carousel {
+    margin-left: 10%;
+    width: 80%;
+    height: 10%;
+  }
+  #img_C {
+    height: 500px;
+  }
+  #d_t {
+    margin-top: 1%;
+  
+    margin-right: 64%;
+  }
+  .ingredients {
+    background-color: gainsboro;
+  
+    width: 100%;
+  }
+  #ing {
+    margin-top: 3%;
+  
+    margin-right: 64%;
+  }
+
+  

@@ -1,0 +1,21 @@
+.avatar-img{
+    max-width: 100% !important;
+    height: 80px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    margin-top: 7px;
+    margin-right: 2px;
+}
+
+.card-image1{
+    background-color: #E1FFF2;
+    border-radius: 50%;
+    max-width: 30% ;
+    height: 94px;
+    margin-left: 35%;
+}
+
+.card{
+    width: 400px;
+    
+}

@@ -1,0 +1,44 @@
+
+.progression-card li{
+    display: inline-block;
+}
+
+ .progression-card li h4{
+    font-size: 12px;
+    padding: 58px 70px 12px 60px;
+    background: white;
+    font-weight: lighter;
+    border-radius: 8px; 
+    color: gray;
+    border: 1.8px solid lightgray;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.fas-pending, .fas-confirmed, .fas-cancelled, .fas-attend{
+    position: fixed;
+    margin: 10px 0px 0px 10px;
+}
+ .progression-card li .confirmed{
+    margin-left: 25px;
+    padding-right: 76px;
+}
+
+ .progression-card li .cancelled{
+    margin-left: 25px;
+    padding-right: 76px;
+}
+
+.progression-card li .attended{
+    margin-left: 25px;
+    padding-right: 76px;
+}
+
+.line3{
+    background-color: #309895;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 2px;
+    width: 100%;
+    border-radius: 8px 8px 0px 0px;
+}

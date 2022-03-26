@@ -1,0 +1,54 @@
+.appointment .lower-appointment h6{
+    margin-top: 12px;
+}
+.lower-appointment .Box .outer-box{
+    margin-top: 14px;
+    background-color: white;
+    height: 380px;
+    width: 1030px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.lower-appointment .Box .outer-box h2{
+    margin-left: 32px;
+    padding-top: 8px;
+    font-size: 13px;
+    color: #646D82;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.inner-box{
+    margin-left: 32px;
+}
+
+.lower-appointment .Box .outer-box .inner-box h3{
+    display: inline-block;
+    color: #43425D;
+    padding-right: 85px;
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+.lower-appointment .Box .outer-box .inner-box tr .line{
+    height: 1px;
+    width: 950px;
+    background: #43425D;
+}
+
+.lower-appointment .Box .outer-box .inner-box tr .recent{
+    margin-top: 16px;
+    height: 60px;
+    width: 950px;
+    background: #EAFAF3;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.lower-appointment .Box .outer-box .inner-box tr .recent:hover{
+    transform: scale(1.02);
+}

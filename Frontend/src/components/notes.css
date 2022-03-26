@@ -1,0 +1,215 @@
+/* Style inputs, select elements and textareas */
+input[type="text1"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  background-color: #309895;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+/* Style the container */
+.container {
+  border-radius: 5px;
+  background-color: #e7e9e3;
+  padding: 20px;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25,
+  .col-75,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+/* 
+.card {
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  background-color: cornsilk;
+}
+
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.container1 {
+  padding: 2px 16px;
+  margin: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.container2 {
+  padding-top: 6px;
+}
+
+.container1 p {
+  margin-top: 5px;
+  margin-bottom: 9px;
+}
+
+i {
+  cursor: pointer;
+} */
+.posts__container {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(41, 131, 131, 0.384);
+}
+.posts__container > .header {
+  background-color: rgb(41, 131, 131);
+  padding: 20px;
+  text-align: center;
+  font-size: 1.5rem;
+  width: 100%;
+  color: white;
+
+  font-weight: bolder;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  background-color: white;
+  width: 90%;
+  margin-top: 2vh;
+  color: black;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.writer__info {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  border-bottom: 1px solid lightgray;
+  flex: 0.2;
+}
+.writer__info > h3 {
+  margin-left: 30px;
+}
+/* Add some padding inside the card container */
+.note__body {
+  flex: 0.6;
+  border-bottom: 1px solid lightgray;
+  padding: 20px;
+  max-height: 40vh;
+  min-height: 20vh;
+}
+.note__body > h6 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+.note__body > p {
+  font-size: 0.99rem;
+  overflow-y: scroll;
+  max-height: 12vh;
+}
+.action__buttons {
+  flex: 0.2;
+  padding: 5px;
+  display: flex;
+}
+.action__buttons * {
+  flex: 1;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  background-color: rgb(172, 172, 172);
+  cursor: pointer;
+  padding: 10px;
+}
+
+i {
+  cursor: pointer;
+}
+.comments__box {
+  padding: 10px;
+}
+.comments__box > h1 {
+  font-size: 1.1rem;
+}
+.input__inbox {
+  padding: 10px;
+  display: flex;
+}
+.input__inbox > label {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.input__inbox > input {
+  flex: 1;
+  border: none;
+  border-bottom: 2px solid gray;
+}
+.input__inbox > button {
+  margin-left: 1vw;
+  padding: 3px;
+  cursor: pointer;
+  background-color: teal;
+  color: white;
+  padding: 5px 10px;
+}
+.garage2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10vh;
+}

@@ -1,0 +1,64 @@
+.doctorAppointmentNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+  width: max-content;
+  /*border-bottom: 1px solid lightgray;*/
+}
+.doctorAppointmentNav > div {
+  margin: 20px;
+  padding: 20px;
+
+  color: rgb(41, 39, 39);
+  font-size: 1.2rem;
+  color: black;
+  font-weight: 700;
+}
+.doctorAppointmentNav > div.selected {
+  border-bottom: 2px solid teal;
+  color: teal;
+}
+/* 
+.doctor__appointments {
+} */
+.doctor__appointments__h1 {
+  text-align: center;
+  padding: 10px 0px;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 5vh 0;
+}
+.doctor__confirm {
+  text-align: center;
+}
+.docSide > div > .confirmed__appointments__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.docSide > div > .confirmed__appointments__list > table {
+  margin: 0 5vw;
+}
+.doctor__confirm button {
+  background-color: #309895;
+  border: none;
+  padding: 10px 14px;
+  margin: 10px;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 300ms;
+}
+.doctor__confirm .contactBtn {
+  color: teal;
+  background-color: transparent;
+  border-bottom: 2px solid teal;
+}
+.doctor__confirm button:hover {
+  background-color: #0df1ea;
+}
+.doctor__confirm .contactBtn:hover {
+  transform: scale(1.1, 1.1);
+  background-color: transparent;
+}

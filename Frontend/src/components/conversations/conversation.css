@@ -1,0 +1,40 @@
+.conversation {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 2px;
+  background-color: white;
+  position: relative;
+}
+
+.conversation:hover {
+  background-color: rgb(221, 212, 212);
+}
+
+.conversationImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.conversationName {
+  font-weight: 550;
+}
+.unreadMsgCount {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 23px;
+  width: 23px;
+  background-color: rgb(250, 18, 18);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 3px;
+}

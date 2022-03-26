@@ -1,0 +1,47 @@
+###################################################### ANCHOR Appointments ##############################################################
+
+#Post Appointment
+POST http://localhost:5000/api/appointment
+content-type: application/json
+
+{
+    "userId":"61af98752ef2e639f1ccfa4d",
+    "doctorId":"61af4755011517abc5e94c12",
+    "appointmentDate":"Wed, 21 Oct 2015 18:27:50 GMT"
+}
+
+###
+#get appointment by user id
+Post http://localhost:5000/api/appointment/61b079090251d038c0300160
+content-type: application/json
+
+{
+    "status":"Booked"
+}
+
+###
+#get appointments by doctor id
+get http://localhost:5000/api/appointment/doctor/61af4755011517abc5e94c12
+
+
+###
+#update status of appointment /:id and {status: ''}
+PUT http://localhost:5000/api/appointment/update
+content-type: application/json
+
+{
+    "appointmentId":"61b0734ae3938312b3ba643c",
+    "status":"test2"
+}
+
+###
+#delete appointment
+Delete http://localhost:5000/api/appointment/delete
+content-type: application/json
+
+
+{
+    "appointmentId":"61b2053c3dfae16069076240"
+}
+###
+GET http://localhost:5000/api/users/specialists

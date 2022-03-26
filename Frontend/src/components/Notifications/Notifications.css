@@ -1,0 +1,68 @@
+.notif_container {
+  position: absolute;
+  top: 10vh;
+  right: 2vw;
+  background-color: black;
+}
+.notifications_box {
+  position: fixed;
+  top: 10vh;
+  right: 2vw;
+  min-height: 50vh;
+  max-height: 86vh;
+  width: 30vw;
+  background-color: rgb(255, 247, 247);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  z-index: 200;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom: 2px solid rgb(54, 126, 126);
+}
+header > .MuiSvgIcon-root {
+  color: teal;
+  padding-right: 5px;
+  width: 30px;
+  cursor: pointer;
+}
+.notifications_box > header > h1 {
+  font-size: 28px;
+  padding: 20px;
+  color: rgba(0, 0, 0, 0.747);
+  color: teal;
+}
+
+.scroll {
+  overflow-y: scroll;
+  max-height: 70vh;
+  /* display: flex;
+  flex-direction: column-reverse; */
+}
+
+.notification {
+  padding: 10px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+
+  background-color: rgba(255, 247, 247, 0.719);
+}
+.notification > p {
+  padding-left: 10px;
+  font-size: 14px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+}
+.notification > span {
+  padding-left: 10px;
+  font-size: 10px;
+  display: block;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+}

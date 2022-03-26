@@ -1,0 +1,103 @@
+.confirmed__appointments__container{
+    width: 100%;
+    margin-top: -20px;
+}
+
+.confirmed__appointments__list{
+    width: 100%;
+}
+
+.confirmed__appointments__list table{
+    width: 90%;
+    padding: 8px 20px;
+    margin: 14px 0px 0px 10%;
+    /* border: 1.8px solid lightgray; */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: #fff; 
+}
+
+.confirmed__appointments__list table th{
+    text-align: left;
+}
+tr:nth-child(even) {
+    background-color: #D6EEEE;
+  }
+
+tr{
+    border-bottom: 1px solid #fff;
+}
+td{
+    padding: 6px 0px;
+}
+th{
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.confirmed__description{
+    max-width: 200px;
+}
+
+.confirmed__appointments__row:hover{
+    transform: scale(1.02);
+}
+.confirmed__appointments__row{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.confirmed__button{
+    text-align: center;
+}
+.confirmed__button button{
+    background-color: #eb0d0d;
+    border: none;
+    color: rgb(236, 233, 233);
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+.confirmed__button button:hover{
+    background-color: rgb(153, 22, 22);
+}
+
+.confirmed__status{
+    color: green;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.confirmed__empty{
+    width: 92%;
+    background-color: rgb(209, 209, 209);
+    text-align: center;
+    padding: 10px 0px;
+    margin-left: 104px;
+    margin-top: 60px;
+}
+.confirmed__empty h1{
+    font-style: normal;
+    font-size: 18px;
+
+}
+.confirmed__appointments__list{
+    font-weight: bold;
+}
+
+.confirmed__appointments__length {
+    margin-top: 60px;
+    margin-left: 110px;
+    font-size: 16px;
+    color: #4CA07A;
+    color: #309895;
+    font-weight: bolder;
+  }
+
+  .confirmed__appointments__length p {
+    font-size: 13px;
+    color: rgb(158, 157, 157);
+    font-weight: lighter;
+    display: inline-block;
+  }

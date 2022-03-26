@@ -1,0 +1,152 @@
+.specialist {
+  margin-top: 30px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10vh;
+}
+.specialist__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /*margin-left: 12%;*/
+  /*align-items: center; */
+}
+.profile-image-container {
+  background-color: #e1fff2;
+  background-color: rgb(232, 247, 255);
+  /*border: dashed 1px rgb(169, 226, 255); */
+  border-radius: 50%;
+  max-width: 50%;
+  height: 130px;
+  margin-left: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.account-setting-profile-img {
+  width: 130px;
+  height: 120px;
+  border-radius: 50%;
+}
+.specialist__container__search {
+  display: flex;
+  flex-direction: row;
+  /*margin-left: 22%;*/
+  /*background-color: rgb(193, 193, 197); */
+  border-radius: 8px;
+}
+.specialist__container__search input {
+  border: 1px solid lightblue;
+  outline: none;
+  height: 50px;
+  width: 520px;
+  background-color: white;
+  font-size: 14px;
+}
+.specialist__container__search input:focus {
+  border: none;
+  outline: none;
+  border: 1px solid rgb(108, 135, 255);
+}
+.specialist__container__search__icon {
+  margin-left: 5px;
+}
+
+.Search {
+  padding: 14px;
+}
+
+.specialist__container__search button {
+  position: absolute;
+  margin-left: 38.2%;
+  height: 50px;
+  width: 52px;
+  border: none;
+  background-color: #309895;
+}
+
+.specialist__container__items {
+  width: 90vw;
+  max-width: 1000px;
+  display: flex;
+  flex-flow: row wrap;
+  /*align-items: center;
+  justify-content: flex-start; */
+  column-gap: 50px;
+  margin-top: 10px;
+}
+
+.specialist__container__items__div {
+  background-color: white;
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px; */
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 38px;
+  width: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 5px lightslategray, 0 0 5px lightslategray,
+    0 0 5px lightslategray;
+  transition: 0.3s;
+}
+
+.specialist__container__items__div:hover {
+  transform: scale(1.02);
+}
+.specialist__container__items__div__items {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.specialist__container__items__div__items label {
+  margin-top: -12px;
+  margin-bottom: -4px;
+  color: rgb(143, 143, 143);
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+.specialist__container__items__div__items p {
+  text-transform: capitalize;
+  color: rgb(148, 148, 148);
+  font-size: 14px;
+}
+
+.specialist__container__items__div__items__button {
+  background-color: #309895;
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  padding: 10px 0px;
+  border: none;
+  cursor: pointer;
+  border: 3px solid transparent;
+  color: #fff;
+  transition: all 300ms;
+  border-radius: 8px;
+  margin-top: 5px;
+}
+
+.specialist__container_profile button {
+  text-align: center;
+  display: inline-block;
+  padding: 8px 28px;
+  width: 50%;
+  border: solid 1px lightblue;
+  margin: 12px 0px -10px 0px;
+}
+.specialist__container__items__div__items__button:hover {
+  background-color: #fff;
+  border-color: #309895;
+  color: #000;
+}
+
+.book__appointment__container {
+  background-color: red;
+  position: fixed;
+}

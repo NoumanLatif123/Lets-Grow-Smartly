@@ -1,0 +1,446 @@
+:root {
+  --primary: #309895(245, 97%, 63%, 0.65);
+  --secondary: #309895(30, 96%, 62%, 0.65);
+}
+
+.register-pic img {
+  max-width: 7.5%;
+  min-height: 5%;
+  display: inline-block;
+  margin-left: 10px;
+  align-items: top;
+}
+
+.registrationpic {
+  margin: 0px 0px 0px -90px;
+  width: 590%;
+  position: fixed;
+  display: flex;
+}
+
+.registrationpic::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 38.4%;
+  height: 100%;
+  background: linear-gradient(255deg, var(--primary), var(--secondary));
+  mix-blend-mode: screen;
+}
+
+.register-form {
+  margin-top: 10px;
+  width: 580px;
+  height: 635px;
+  position: fixed;
+  background-color: white;
+  margin-left: 650px;
+  /*border: 0.01px solid lightslategray; */
+}
+
+.register-form:hover {
+  transform: scale(1.02);
+  background-color: white;
+  box-shadow: 0 0 5px lightslategray, 0 0 5px lightslategray,
+    0 0 5px lightslategray;
+  transition-delay: 0.3s;
+}
+
+.loginBox .line1,
+.RegisterBox .line1 {
+  background-color: #309895;
+  margin-top: -20px;
+  margin-left: -20px;
+  top: 0;
+  height: 7px;
+  width: 107.5%;
+}
+
+.register-form .fa-user-circle {
+  text-align: center;
+  margin-top: -10px;
+  color: #309895;
+}
+
+.fas-custom {
+  font-size: 50px;
+}
+
+.loginBox,
+.RegisterBox {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 480px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.loginBox h1,
+.RegisterBox h1,
+.register-form-heading h1 {
+  font-size: 24px;
+  color: #707070;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.register-form-heading h1{
+  margin-top: -16px;
+}
+
+.register-form-input label{
+  font-size: 14px;
+}
+
+.RegisterBox h1 {
+  padding-top: -4px;
+}
+
+.loginBox p,
+.RegisterBox p,
+.register-form-heading p{
+  font-size: 10px;
+  color: #646d82;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: -14px;
+  letter-spacing: 2px;
+}
+
+.RegisterBox p {
+  margin-top: -8px;
+}
+
+.register-form-heading p{
+  margin-top: 8px;
+}
+
+.register{
+  height: 630px;
+  margin-top: 0px;
+}
+
+.radioBtn {
+  margin-top: 10px;
+}
+
+.radioBtn span {
+  font-size: 14px !important;
+}
+
+.radioBtn label {
+  margin: 0px 0px 0px 120px;
+  font-size: 10px;
+  color: #646d82;
+  font-weight: lighter;
+}
+
+.loginBox label,
+.RegisterBox label {
+  margin-left: 60px;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #707070;
+  letter-spacing: 0.5px;
+}
+
+.RegisterBox label {
+  margin-top: 0px;
+}
+
+.loginInput,
+.loginInput1,
+.loginInput2,
+.loginInput3,
+.loginInput4,
+.loginInput5,
+.loginInput6 {
+  height: 40px;
+  border: 0.5px solid lightgray;
+  font-size: 10px;
+  margin-top: -15px;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding-left: 20px;
+}
+
+.qualification {
+  margin-bottom: 40px;
+  font-size: 12px;
+}
+
+.qualification .loginInput6 {
+  position: absolute;
+  margin-left: -72px;
+  margin-top: 20px;
+  width: 72.5%;
+  margin-bottom: 10px;
+}
+
+.loginInput,
+.loginInput1 {
+  margin-top: -20px;
+}
+
+.loginInput:focus,
+.loginInput1:focus,
+.loginInput2:focus,
+.loginInput3:focus,
+.loginInput4:focus,
+.loginInput5:focus,
+.loginInput6:focus {
+  outline: none;
+  border-color: #ff9407;
+}
+
+.loginInput2.error {
+  border-color: #e34c3c;
+}
+
+.loginButton,
+.registerButton {
+  width: 78%;
+  height: 50px;
+  /*border-radius: 50px;*/
+  border: none;
+  background-color: #309895;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-left: 60px;
+  cursor: pointer;
+}
+
+.registerButton {
+  margin-top: 32px;
+  margin-bottom: -70px;
+}
+
+.loginButton:hover,
+.registerButton:hover {
+  background-color: #3baca9;
+}
+
+.loginRegister {
+  width: 100%;
+  align-self: center;
+  height: 50px;
+  margin-top: 97.5%;
+  position: absolute;
+  text-align: center;
+  padding: 16px;
+  border: none;
+  background-color: #309895;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.loginRegister span a,
+.loginRegister-2 span a {
+  color: #ff9407;
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+.RegisterBox p1,
+.loginBox p1 {
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 60px;
+  margin-top: -6px;
+  font-size: 9px;
+  letter-spacing: 0.5px;
+}
+
+.RegisterBox .qualification p1 {
+  position: absolute;
+  margin-top: 62px;
+  margin-left: -72px;
+}
+
+.register-form-heading {
+  text-align: center;
+  margin: 2rem 0 0.5rem 0;
+}
+
+.register-form-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 3px 4.5rem;
+}
+
+.register-form-input input {
+  margin-top: -16px;
+  padding: 8px;
+}
+
+section.register-form-2 {
+  position: fixed;
+  width: 100%;
+}
+
+form.register {
+  position: relative;
+  background: white;
+  color: #707070;
+}
+form.register input {
+  font-size: 12px !important;
+}
+button.registerButton-2 {
+  background-color: #309895;
+  color: white;
+  width: 78%;
+  height: 50px;
+  border: none;
+  margin: 0 auto;
+  display: block;
+}
+
+.singup-padding {
+  padding: 1rem 0.8rem 2rem 0.8rem;
+}
+.errorMessage {
+  color: red;
+  font-size: 10px;
+  margin-bottom: -8px;
+  margin-top: -10px;
+}
+img.register-form-avatar__img {
+  max-width: 100px !important;
+  margin: 0 auto;
+  display: block;
+  border: 1px solid #309895;
+  border-radius: 50%;
+}
+
+.loginRegister-2 {
+  background-color: #309895;
+  color: white;
+  width: 100%;
+  height: 50px;
+  border: none;
+  margin: 0 auto;
+  margin-top: 0%;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 93%;
+  justify-content: center;
+}
+@media (max-width: 768px) {
+  .registrationpic {
+    width: 1550%;
+    height: 110%;
+    opacity: 0.7;
+  }
+
+  .register-form {
+    margin: 60px 0px 0px 45px;
+    height: 520px;
+    width: 420px;
+  }
+
+  .register-form .loginBox .line1 {
+    width: 110.5%;
+  }
+
+  .register-form h1 {
+    position: absolute;
+    margin-left: 36%;
+  }
+
+  .register-form p {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 50px;
+    letter-spacing: 0.8px;
+  }
+
+  .register-form .fa-user-circle {
+    position: absolute;
+    margin-left: 160px;
+    margin-top: 70px;
+  }
+
+  .loginBox label {
+    /*margin-top: -40px;*/
+    margin-top: 90px;
+  }
+
+  .loginBox .label1 {
+    position: absolute;
+    margin-top: 140px;
+  }
+
+  .loginBox .label2 {
+    position: absolute;
+    margin-top: 220px;
+  }
+
+  .loginInput {
+    position: absolute;
+    margin-top: 160px;
+    width: 260px;
+  }
+
+  .loginInput1 {
+    position: absolute;
+    margin-top: 240px;
+    width: 260px;
+  }
+
+  .loginInput2,
+  .loginInput3,
+  .loginInput4,
+  .loginInput5 {
+    /*  position: absolute; */
+    /*margin-top: 500px; */
+    width: 260px;
+    margin-top: 2px;
+    margin-bottom: -75px;
+  }
+
+  .loginInput3 {
+    margin-top: 2px;
+  }
+
+  .loginInput4 {
+    margin-top: 2px;
+  }
+
+  .loginInput5 {
+    margin-top: 2px;
+    margin-bottom: 108px;
+  }
+
+  .loginButton {
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 360px;
+    width: 46%;
+    height: 8.6%;
+    font-size: 16px;
+  }
+
+  .loginButton:hover {
+    background-color: #3baca9;
+  }
+
+  .loginRegister {
+    position: absolute;
+    margin-top: 108.5%;
+    height: 8.6%;
+    width: 100%;
+    font-size: 16px;
+  }
+}

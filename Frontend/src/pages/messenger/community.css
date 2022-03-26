@@ -1,0 +1,33 @@
+
+.garage{
+    height: calc(100vh - 70px);
+    display: flex;
+  }
+  
+  .posts {
+    flex: 5;
+  }
+  
+  .postsWrapper {
+    width: 95%;
+    border: none;
+    
+  }
+  
+  .videos {
+    flex: 5;
+  }
+  
+  .videoWrapper {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .postsWrapper,
+  .videoWrapper {
+    padding: 15px;
+    height: 100%;
+  }
+  
+  
